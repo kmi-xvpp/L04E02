@@ -1,7 +1,7 @@
 # L04E02: Parse command top
 Vytvořte modul `parse_top.py` obsahující funkci `parse_top(path)`, jejíž parametr `path` je řetězec s cestou k souboru, který obsahuje výstup příkazu `top`.
 
-Tato funkce ze souboru načte běžící příkazy a do seznamu uloží pro každý příkaz tuple ve tvaru: (PID, USER, %CPU, %MEM, COMMAND).
+Tato funkce ze souboru načte běžící příkazy a do seznamu uloží pro každý příkaz tuple ve tvaru: (PID, USER, %CPU, %MEM, COMMAND). Záznamy v seznamu budou seřazeny vzestupně podle PID.
 
 Snažte se nejvíce využít regulární výrazy.
 
